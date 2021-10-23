@@ -1,0 +1,16 @@
+ {
+"name":"Ad-Block Extension",
+"version":"1.0",
+"manifest_version":2,
+"icons":{
+"16":"icon.png",
+"48":"icon.png",
+"128":"icon.png"
+},
+"description":"A simple extension to block ads",
+"permissions":["webRequest","webRequestBlocking","<all_urls>"],
+"background":{
+    "scripts":["src/background.js"]
+}
+
+ }
